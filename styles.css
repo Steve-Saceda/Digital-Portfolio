@@ -270,6 +270,11 @@ body {
     .hobby{
         margin-bottom: 20px;
     }
+
+    .nav-btn{
+        height: 20px;
+        width: 100px;
+    }
 }
 
 @media only screen and (max-width: 1024px){    
@@ -302,5 +307,10 @@ body {
 
     .hobby{
         margin-bottom: 20px;
+    }
+
+    .nav-btn{
+        height: 20px;
+        width: 100px;
     }
 }
