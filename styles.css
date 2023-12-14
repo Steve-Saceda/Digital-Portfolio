@@ -1,0 +1,230 @@
+* {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    background-color: #f1f8fc;
+}
+
+.titlebar {
+    text-align: center;
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    margin-top: -1%;
+    width: 102%;
+    margin-left: -1.2%;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cit-logo img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 2%;
+}
+
+.profilephoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    flex-direction: column;
+    /* border: 10px solid; */
+    /* height: 100vh; */
+}
+
+.profilephoto img {
+    max-width: 75%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profilephoto p {
+    text-align: left;
+}
+
+
+
+.container2 {
+    background-color: blanchedalmond;
+    height: fit-content;
+    margin-top: 3%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-style: groove;
+    border-radius: 20px;
+}
+
+.title>h2 {
+    text-align: center;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    font-family: Jazz LET, fantasy;
+}
+
+.title>h1 {
+    margin-left: 5%;
+    font-style: italic;
+    font-family: Jazz LET, fantasy;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: auto;
+
+}
+
+
+.information {
+    text-align: left;
+    width: 300px;
+    margin-right: 80px;
+    margin-bottom: auto;
+    /* border: 10px solid; */
+}
+
+.hobby {
+    margin-right: 80px;
+    width: 400px;
+    margin-bottom: auto;
+    /* border: 10px solid; */
+}
+
+.education a{
+    display: flex;
+    border: 10px saddlebrown;
+    text-decoration: none;
+    color: #f1f8fc;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn{
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: brown;
+}
+
+.nav-btn:hover{
+    background-color: dimgray;
+}
+
+#scroll-up{
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    height: 50px;
+    width: 120px;
+    border-radius: 50px;
+    background-color: cornflowerblue;
+    position: fixed;
+    text-align: center;
+    display: none;
+    
+}
+
+#scroll-up:hover{
+    background-color: #555;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container2 {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    margin-top: -2%;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    /* border: 10px solid; */
+
+}
+
+.logo-container2 :hover {
+    width: 3.5rem;
+    transition: .6s;
+}
+
+.logo-container img {
+    width: 3rem;
+    height: auto;
+}
+
+#education-section {
+    margin-top: 12%;
+}
+
+#Heading {
+    border-style: double;
+    border-color: black;
+    text-align: center;
+    Background-color: brown;
+    color: white;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.info {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    border-style: dotted;
+    border-width: 5px;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.info table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info h2 {
+    text-decoration: underline;
+    font-family: Jazz LET, fantasy;
+}
+
+.schoolpics {
+    margin: 50;
+    border-style: double;
+    border-width: 5px;
+    background-color: blanchedalmond;
+}
+
+.company{
+    margin: auto 50px auto 10px;
+}
+
+.companylist{
+    list-style-position: inside;
+}
+
+.companyImage-container{
+    display: flex;
+    justify-content: center;
+}
+
+.department-division, .overall-comments, .est-hrs, .reflection{
+    text-align: justify;
+}
