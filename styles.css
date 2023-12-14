@@ -272,8 +272,8 @@ body {
     }
 
     .nav-btn{
-        height: 20px;
-        width: 100px;
+        height: 35px;
+        padding-bottom: 15px;
     }
 }
 
@@ -310,7 +310,7 @@ body {
     }
 
     .nav-btn{
-        height: 20px;
-        width: 100px;
+        height: 35px;
+        padding-bottom: 15px;
     }
 }
